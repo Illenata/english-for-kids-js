@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" type="image/ico">
+    <title>English for kids</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <nav>
+                <div class="menu__btn">
+                    <div class="line__menu half start"></div>
+                    <div class="line__menu"></div>
+                    <div class="line__menu half end"></div>
+                </div>
+                <div class="menu__wrapper">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <img src="./img/icons/pusheen.png" alt="Pusheen">
+                            <p class="active">Main</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Animals.png" alt="Animals">
+                            <p>Animals</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Feelings.png" alt="Feelings">
+                            <p>Feelings</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Clothes.png" alt="Clothes">
+                            <p>Clothes</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Actions.png" alt="Actions">
+                            <p>Actions</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Food.png" alt="Food">
+                            <p>Food</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Weather.png" alt="Weather">
+                            <p>Weather</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Hollydays.png" alt="Hollydays">
+                            <p>Hollydays</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Objects.png" alt="Objects">
+                            <p>Objects</p>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./img/icons/Star.png" alt="Statistics">
+                            <p>Statistics</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <button class="start__game__btn hidden">
+                Start game
+            </button>
+            <label class="switch">
+                <input class="slider" type="checkbox" checked>
+                <span class="slider">
+                    <p class="slider__text">
+                        Train
+                    </p>
+                </span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <div class="stars stars-hidden"></div>
+        <div class="grid__wrapper"></div>
+        <div class="endGame delete-block">
+            <img src="./img/victory.png" alt="win" class="victory delete-block">            
+            <img src="./img/sad.png" alt="fail" class="fail delete-block">
+        </div>
+        <div class="statistics-wrapper delete-block">
+            <button class="repeat-dif-words">Repeat difficult words</button>
+            <img src="./img/cucu.png" alt="hi" class="hi-img">
+            <div class="overflow-x-auto">
+                <table class="statistics">
+                    <caption class="caption">Statistics
+                        <button class="reset">Reset</button>
+                    </caption>
+                    <tbody>
+                        <thead class="thead">
+                            <th class="th">Categories
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">Words
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">Translation
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">Trained
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">Correct
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">Incorrect
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                            <th class="th">%
+                                <img src="./img/icons/arrow.png" alt="arrow" class="arrow">
+                            </th>
+                        </thead>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <a href="https://github.com/Illenata" target="_blank">
+                Nataliia Khoverko
+            </a>
+            <p>2020</p>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./img/rs_school_js.svg"/>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
